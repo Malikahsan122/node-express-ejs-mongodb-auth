@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <div
+      class="w-full h-screen flex justify-center items-center bg-zinc-800 text-white"
+    >
+      <div>
+        <form method="post" action="/login">
+          <input
+            class="mt-4 block px-1 py-1.5 bg-transparent border-1 border-gray-300 outline-none"
+            type="email"
+            placeholder="email"
+            name="email"
+          />
+          <input
+            class="mt-4 block px-1 py-1.5 bg-transparent border-1 border-gray-300 outline-none"
+            type="password"
+            placeholder="password"
+            name="password"
+          />
+          <input
+            class="mt-4 px-2 py-1.5 bg-blue-600 rounded-xl cursor-pointer"
+            type="submit"
+            value="login"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
